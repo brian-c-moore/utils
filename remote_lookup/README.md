@@ -9,7 +9,7 @@ The script prompts for credentials and has not been designed with SSH keys in mi
 ## Prerequisites
 
 - Ensure `sshpass` is installed for non-interactive SSH password authentication.
-- The utility expects a hard-coded remote server hostname within the script. Ensure you set the `remote_host` variable inside the script.
+- By default, the utility expects a hard-coded remote server hostname within the script. Ensure you set the `remote_host` variable inside the script.
 - Alternatey remote_host can be read in similarly to the username with slight modifications.
 
 ## Usage
