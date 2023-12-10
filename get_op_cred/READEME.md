@@ -20,18 +20,17 @@ There are a few ways to use the script within another Python project.
     Windows (Powershell):
     Add the script to your PYTHONPATH using the following command in PowerShell. This allows the script to be imported easily into any Python project.
     ``PS C:\Users\nekon> $Env:PYTHONPATH += ";C:\Users\user\projects\util"``
-
+    
     Linux (Bash):
     For Linux users, update the .bashrc or .bash_profile file to include the script in PYTHONPATH.
     ``export PYTHONPATH="$PYTHONPATH:/path/to/script-directory/"``
 
-2. **Add Script Path**: At the beginning of your Python script or in your environment settings, add the path to the `get_op_cred.py` script:
-
+3. **Add Script Path**: At the beginning of your Python script or in your environment settings, add the path to the `get_op_cred.py` script:
     `````
     import sys
     sys.path.append('/path/to/script-directory')
 
-3. **Script Location**: Place the `get_op_cred.py` script in a directory that you usually include in your Python projects.
+4. **Script Location**: Place the `get_op_cred.py` script in a directory that you usually include in your Python projects.
 
 ## Usage
 
